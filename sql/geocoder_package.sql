@@ -366,11 +366,11 @@ FUNCTION searchChiban( paddress VARCHAR2,r_todofuken VARCHAR2,
         r_shikuchoson VARCHAR2,r_ooaza VARCHAR2 ) RETURN geores 
 AS 
   address       varchar2(180);
-  ooaza         varchar2(60);
-  preftab       varchar2(60);
-  tmpstr1       varchar2(60);
-  tmpstr2       varchar2(60);
-  tmpstr3       varchar2(60);
+  ooaza         varchar2(260);
+  preftab       varchar2(260);
+  tmpstr1       varchar2(260);
+  tmpstr2       varchar2(260);
+  tmpstr3       varchar2(260);
   tmpcnt        integer;
   tmpflag       integer;
   pos           integer;
